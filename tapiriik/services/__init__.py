@@ -2,6 +2,8 @@ from .service_base import *
 from .api import *
 from tapiriik.services.RunKeeper import RunKeeperService
 RunKeeper = RunKeeperService()
+from tapiriik.services.Runtastic import RuntasticService
+Runtastic = RuntasticService()
 from tapiriik.services.Strava import StravaService
 Strava = StravaService()
 from tapiriik.services.Endomondo import EndomondoService
